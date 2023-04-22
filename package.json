@@ -4,7 +4,6 @@
   "description": "backend for Movies-explorer app",
   "main": "app.js",
   "scripts": {
-    "lint": "npx eslint .",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
@@ -28,6 +27,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-winston": "^4.2.0",
+    "helmet": "^6.1.5",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.1",
     "validator": "^13.9.0",
