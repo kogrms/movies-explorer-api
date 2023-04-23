@@ -6,4 +6,4 @@ IP-адрес: 51.250.89.207
 API-сервер: https://api.diplom-kogrms.nomoredomains.monster
 
 ## Ссылка на репозиторий
-https://github.com/Alexander-Nov/movies-explorer-api
+https://github.com/kogrms/movies-explorer-api
