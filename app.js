@@ -12,8 +12,8 @@ const { DEFAULT_MONGO_DB_LINK } = require('./utils/config');
 
 const {
   PORT = 3000,
-  NODE_ENV = 'develop',
-  MONGO_PROD_DB,
+  // NODE_ENV = 'develop',
+  // MONGO_PROD_DB,
 } = process.env;
 
 const options = {
@@ -39,7 +39,8 @@ app.use('*', cors(options));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect(NODE_ENV === 'production' ? MONGO_PROD_DB : DEFAULT_MONGO_DB_LINK);
+// mongoose.connect(NODE_ENV === 'production' ? MONGO_PROD_DB : DEFAULT_MONGO_DB_LINK);
+mongoose.connect(DEFAULT_MONGO_DB_LINK);
 
 app.use(requestLogger);
 
