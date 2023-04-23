@@ -1,6 +1,4 @@
-# movies-explorer-api
-
-## Backend дипломного проекта movies-explorer-api
+## Backend дипломного проекта Movies explorer на курсе "Веб-разработчик" Яндекс.Практикума
 Node.js/Express, MongoDB. Yandex Compute Cloud, Nginx, PM2, SSL-сертификат.
 
 IP-адрес: 51.250.89.207
