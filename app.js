@@ -17,13 +17,13 @@ const {
 } = process.env;
 
 const options = {
-  // origin: [
-  //   'https://localhost:3001',
-  //   'http://localhost:3001',
-  //   // 'https://kogrms.nomoredomains.monster',
-  //   // 'http://kogrms.nomoredomains.monster',
-  // ],
-  origin: '*',
+  origin: [
+    'https://localhost:3001',
+    'http://localhost:3001',
+    'https://diplom-kogrms.nomoredomains.monster',
+    'http://diplom-kogrms.nomoredomains.monster',
+  ],
+  // origin: '*',
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
   preflightContinue: false,
   optionsSuccessStatus: 204,
