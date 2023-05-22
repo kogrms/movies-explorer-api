@@ -11,15 +11,15 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 const { DEFAULT_MONGO_DB_LINK } = require('./utils/config');
 
 const {
-  PORT = 3000,
+  PORT = 3001,
   NODE_ENV = 'develop',
   MONGO_PROD_DB,
 } = process.env;
 
 const options = {
   origin: [
-    'https://localhost:3001',
-    'http://localhost:3001',
+    'https://localhost:3000',
+    'http://localhost:3000',
     'https://diplom-kogrms.nomoredomains.monster',
     'http://diplom-kogrms.nomoredomains.monster',
   ],
